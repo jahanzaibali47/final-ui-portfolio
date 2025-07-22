@@ -190,3 +190,31 @@ body {
   }
 
 
+
+   .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #e9e8e6;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 99;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
